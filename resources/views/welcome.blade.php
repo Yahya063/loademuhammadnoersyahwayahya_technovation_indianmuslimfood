@@ -23,7 +23,7 @@
             <img src="/images/logo penyelenggara (4).png" alt="Habesha Cuisine logo" style="max-width: 150px; max-height: 150px; width: 100%; height: 100%; object-fit: cover; background: transparent;">
             <div class="title m-b-md mt-5">
                 Indian Muslim Food
-            </div>
+            </div>i
             <p class="mssg">{{ session('message') }}</p>
             <a href="{{route('foods.create')}}">Order Food</a>
         </div>
