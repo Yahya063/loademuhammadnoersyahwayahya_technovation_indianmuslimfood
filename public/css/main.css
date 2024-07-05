@@ -1,0 +1,163 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .full-height {
+    height: 100vh;
+  }
+  
+  .flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .position-ref {
+    position: relative;
+  }
+  
+  .top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .m-b-md {
+    margin-bottom: 30px;
+  }
+  
+  footer{
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    /* position : absolute; */
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+    width: 100%;
+    min-height: screen; 
+  }
+  
+  .title {
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+    color: #5e2195;
+  }
+
+  .wrapper {
+    max-width: 1140px;
+    padding: 10px;
+    margin: 20px auto;
+  }
+  
+  /* create food form */
+  
+  .create-food {
+    background: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .create-food label,
+  .create-food select {
+    display: block;
+  }
+  
+  .create-food label {
+    margin-top: 30px;
+  }
+  
+  .create-food select {
+    padding: 8px;
+    width: 200px;
+  }
+  
+  .create-food input[type=checkbox] {
+    margin: 10px;
+  }
+  
+  .create-food input[type=submit] {
+    background: #5e2195;
+    padding: 8px 20px;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+  }
+  
+  /* food details page */
+  
+  .food-details {
+    background: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .food-details p {
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .food-details button {
+    background: #5e2195;
+    padding: 8px 20px;
+    color: #fff;
+    border: 0;
+    margin-top: 20px;
+  }
+  
+  a.back {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    color: #5e2195;
+    margin-bottom: 20px;
+  }
+  
+  /* food index page */
+  
+  .food-index h1 {
+    margin-bottom: 40px;
+  }
+  
+  .food-index .food-item {
+    margin: 10px 0;
+    padding: 12px;
+    background: #f4f4f4;
+  }
+  
+  .food-index .food-item img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+  }
+  
+  .food-index .food-item h3 {
+    display: inline-block;
+    font-weight: normal;
+    margin-left: 20px;
+  }
+  
+  .food-index .food-item h3 a {
+    color: #777;
+    text-decoration: none !important;
+  }
